@@ -1,0 +1,45 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Its easier to determine where an issue is if you are only looking at the 
+	things that are different between two files.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You will get an idea of what things frequently trip you up. Also you don't
+	have to worry about breaking your code if you can just "rewind" to the last
+	time your code worked.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+	Pro of manually committing: You only commit when you want to so you don't
+	have a lot of irrelevant versions. Con of manually committing: If you forget
+	you could lose your changes.
+	Pro of automatic saving: you don't have to remember to save. Con of automatic
+	saving: you will have a lot of versions and they won't be tied to a specific
+	change.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Saving changes to multiple files at once makes more sense for code and saving
+	one file at a time like Google Docs does makes more sense for documents.	
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log will show you the commit id's and you can use git diff to view 
+	the changes between two commit id's.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    If you know you can always checkout the previous version of your code if the 
+	changes you are making now break it, you are more likely to experiment more.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I think I will use git to keep track of files that change often
+	and also use it when I start writing programs of my own at home.
