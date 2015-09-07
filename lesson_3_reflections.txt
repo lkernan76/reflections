@@ -19,3 +19,8 @@ instead of another?
 	when you want to try an experimental change to what is in the master branch of 
 	your repository.
 	
+What is the benefit of having a copy of the last known state of the remote stored 
+locally?
+
+	With the last known state stored locally you can review it offline. 
+	
