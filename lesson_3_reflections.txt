@@ -3,3 +3,19 @@ When would you want to use a remote repository rather than keeping all your work
   If you are collaborating with others, using a remote repository makes sense so that 
   all will have access to the repository. 
   
+Why might you want to always pull changes manually rather than having Git automatically 
+stay up-to-date with your remote repository?
+
+	Especially when dealing with a public repository, but even with a private one, it
+	makes sense to only send to GitHub what you are ok with others seeing rather than
+	having GitHub automatically syncing your local and remote repositories.
+	
+Describe the differences between forks, clones, and branches. When would you use one 
+instead of another?
+
+	Forks are only possible on GitHub. Forking a repository is making a copy to your
+	GitHub account of someone else's repository on GitHub. To clone a repository is
+	to make a copy of either a local or remote repository. Branching is what you do
+	when you want to try an experimental change to what is in the master branch of 
+	your repository.
+	
