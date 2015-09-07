@@ -16,3 +16,33 @@ Now that you have your workspace set up, what do you want to try using Git for?
 	I do that I will likely use Git to keep track of my personal coding along with
 	files like resumes.
 	
+How can you use the staging area to make sure you have one commit per logical change?
+
+	You can compare the staging area to the latest commit to ensure that you've only
+	made one logical change.
+	
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+	When you want to try out something that you don't know if you will want to make
+	part of the main game/code, you can create a branch to make changes while you 
+	maintain your working main copy.
+	
+How do the diagrams help you visualize the branch structure?
+
+	The diagram makes the concept more concrete and easier to understand.
+	
+What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+
+	Merging two branches adds the changes from both branches to whichever branch
+	you are in when you perform the merge. It is represented to visually appear as
+	two branches merging together.
+	
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+
+	Pro of git's automatic merging is that it is faster than manually merging.
+	Con of git's automatic merging is that it might not always make the correct
+	changes.
+	
