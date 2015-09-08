@@ -24,3 +24,23 @@ locally?
 
 	With the last known state stored locally you can review it offline. 
 	
+How would you collaborate without using Git or GitHub? What would be easier, and what 
+would be harder?
+
+	You could collaborate without using Git by storing files on a shared directory
+	on a server that all of the collaborators could reach. This would be a pain if
+	there were more than two collaborators or if you and the other person were work-
+	ing on the same part of the code at the same time. Collaborating without GitHub
+	is not so difficult, you just have to host a shared git repository that every-
+	one can reach.
+	
+When would you want to make changes in a separate branch rather than directly in 
+master? What benefits does each approach have?
+
+	I would make changes in a separate branch if there was something that I was not
+	sure should be put into the master branch but wanted to try it out. If you put it
+	in a separate branch and decide to scrap the idea, you never need to make any 
+	changes to master. If you decide to implement the change, you just merge it into 
+	master and you're good. If you had made the change in master, you would have to 
+	undo the change, which could be more of a pain.
+	
